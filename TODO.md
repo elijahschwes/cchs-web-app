@@ -6,4 +6,5 @@
 
 > Sport announcing implementation.
 
-> Push Notification System for games, if possible show scores of the team.
+> Push Notification System
+>> This would push notifications for what's on the lunch menu, if you don't have school that day, or announcing if they're are sports that day.
