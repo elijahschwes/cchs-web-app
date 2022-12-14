@@ -8,3 +8,6 @@
 
 > Push Notification System
 >> This would push notifications for what's on the lunch menu, if you don't have school that day, or announcing if they're are sports that day.
+
+> Schedule Things
+>> In theory we could possibly just grab it from their website if they were to ever edit the schedule or just hard code it.
