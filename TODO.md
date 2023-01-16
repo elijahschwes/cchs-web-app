@@ -1,10 +1,10 @@
 # A list of things to do.
 
-> Lunch menu implementation. (How? Run a task that downloads the lunch menu at the end of every month, and then appropriately use the next month to get the lunch menu. After this, we can analyze that all of the lunch menus use the same template. We can choose a starting point (which could be the first date on the calender) and we can check if school is even opened that day (for lunch) if the color of said pixel is a certain color, if is a day of school we can open the div for that section and read the text which is the lunch menu. )
+> Lunch menu implementation. (Instead of previous idea, send a GET request to [lunch menus endpoint](https://www.clsd.k12.pa.us/cornwall-lebanon-school-district/departments/food-services/lunch-breakfast-menus/) and then query the html with jsdom for 'a' elements that contain the text that ends in "-Menu.pdf" and this should give the updated menus for all three possible supported lunch menu options.)
 
-> Calender system implementation. (almost exactly the same as above)
+> Calender system implementation. (instead of previous implementation just send a get request to the online calendar, but then we have a issue with pages being cut off. this will be heavily thought about for best pratice and implementation.)
 
-> Sport announcing implementation.
+> Sport announcing implementation. (push notifications for when a game starts, ends with the provided score / winning team.)
 
 > Push Notification System
 >> This would push notifications for what's on the lunch menu, if you don't have school that day, or announcing if they're are sports that day.
